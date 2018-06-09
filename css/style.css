@@ -52,4 +52,40 @@ img {
   padding-top: 4em;
   padding-bottom: 4em; }
 
+.card-body {
+  padding: 1em; }
+
+.card-footer {
+  padding: 1em; }
+
+.card-footer button {
+  background-color: #ebebeb;
+  color: black;
+  width: 100%;
+  height: 2rem;
+  border: none; }
+
+.text-light {
+  color: gray;
+  font-size: 1.2rem; }
+
+.graydark {
+  background-color: #5f5e5e;
+  color: white; }
+
+.number-big {
+  font-size: 2rem;
+  margin-bottom: 0px; }
+
+.partners {
+  font-size: 1rem; }
+
+.progressBar {
+  width: 100%;
+  height: 20px;
+  background-color: gray; }
+
+.pricing h2 {
+  font-size: 2rem; }
+
 /*# sourceMappingURL=style.css.map */
