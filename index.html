@@ -11,18 +11,18 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class="container-fluid ">
-<header>
+<header id="init">
 <!--nav-->
   <nav>
     <section class="container">
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">Logo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#.html">ABOUT</a></li>
-        <li><a href="#.html"> <i class="fas fa-user"></i> TEAM</a></li>
-        <li><a href="#.html"> <i class="fas fa-list"></i>WORK</a></li>
-        <li><a href="#.html"> <i class="fas fa-desktop"></i> PRICING</a></li>
-        <li><a href="#.html">  <i class="fas fa-desktop"></i> CONTACT</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#team"> <i class="fas fa-user"></i> TEAM</a></li>
+        <li><a href="#work"> <i class="fas fa-list"></i>WORK</a></li>
+        <li><a href="#pricing"> <i class="fas fa-desktop"></i> PRICING</a></li>
+        <li><a href="#contact">  <i class="fas fa-desktop"></i> CONTACT</a></li>
       </ul>
     </div>
   </section>
@@ -38,25 +38,25 @@
 <!--fin nav--> 
 </header> 
 <section class="row">
-  <section class="container center-align about">
+  <section class="container center-align about" id="about">
     <h3>ABOUT THE COMPANY</h3>
     <h4>Key features of your company</h4>
-    <section class="col s3">
+    <section class="col m3 s12">
       <i class="fas fa-desktop"></i>
       <h4>Responsive</h4>
       <p>Lorem insum dolor sit amet, conselieur adipscing eilt, sed do elusmond tempor.</p>
     </section>
-    <section class="col s3">
+    <section class="col m3 s12">
       <i class="fas fa-heart"></i>
       <h4>Passion</h4>
       <p>Lorem insum dolor sit amet, conselieur adipscing eilt, sed do elusmond tempor.</p>
     </section>
-    <section class="col s3">
+    <section class="col m3 s12">
       <i class="fas fa-gem"></i>
       <h4>Design</h4>
       <p>Lorem insum dolor sit amet, conselieur adipscing eilt, sed do elusmond tempor.</p>
     </section>
-    <section class="col s3">
+    <section class="col m3 s12">
       <i class="fas fa-cog"></i>
       <h4>Support</h4>
       <p>Lorem insum dolor sit amet, conselieur adipscing eilt, sed do elusmond tempor.</p>
@@ -65,21 +65,21 @@
 </section>
 <section class="row gray">
   <section class="container">
-    <section class="col s6">
+    <section class="col m6 s12">
       <h3>We know design</h3>
       <p>Lorem insum dolor sit amet, conselieur adipscing eilt, sed do elusmond tempor.</p>
       <a class="waves-effect waves-light btn"><i class="fa fa-list left"></i>View Our Works</a>
     </section>
-    <section class="col s6">
+    <section class="col m6 s12">
       <img src="img/phone_buildings.jpg">
     </section>
   </section>
 </section>
 <section class="row">
-  <section class="container center-align team">
+  <section class="container center-align team" id="team">
     <h3>THE TEAM</h3>
     <p>The ones who run this company</p>
-    <section class="col s3">
+    <section class="col m3 s12">
      <div class="card">
        <div class="card-img">
          <img src="img/team2.jpg">
@@ -94,7 +94,7 @@
        </div>
      </div>
     </section>
-    <section class="col s3">
+    <section class="col m3 s12">
      <div class="card">
        <div class="card-img">
          <img src="img/team1.jpg">
@@ -109,7 +109,7 @@
        </div>
      </div>
     </section>
-    <section class="col s3">
+    <section class="col m3 s12">
      <div class="card">
        <div class="card-img">
          <img src="img/team3.jpg">
@@ -124,7 +124,7 @@
        </div>
      </div>
     </section>
-    <section class="col s3">
+    <section class="col m3 s12">
      <div class="card">
        <div class="card-img">
          <img src="img/team4.jpg">
@@ -161,7 +161,7 @@
     </section>
   </section>
 </section>
-<section class="row graymedium center-align work">
+<section class="row graymedium center-align work" id="work">
   <section class="container">
     <h3>OUR WORK</h3>
     <p>What we`ve done fot people</p>
@@ -208,12 +208,12 @@
     </section>
   </section>
 </section>
-<section class="row graydark center-align princing">
+<section class="row graydark center-align princing" id="pricing">
   <section class="container">
     <h2>PRICING</h2>
     <hr/>
     <p>Choose a plan that fits you need</p>
-    <section class="col s4">
+    <section class="col m4 s12">
       <div class="princing-table center-align ">
         <div class="princing-table--heading">Basic</div>
         <div class="princing-table--body">
@@ -230,7 +230,7 @@
         </div>
       </div>
     </section>
-    <section class="col s4">
+    <section class="col m4 s12">
       <div class="princing-table-active center-align ">
         <div class="princing-table">
         <div class="princing-table--heading">Basic</div>
@@ -249,7 +249,7 @@
       </div>
       </div>
     </section>
-    <section class="col s4">
+    <section class="col m4 s12">
       <div class="princing-table center-align ">
         <div class="princing-table">
         <div class="princing-table--heading">Basic</div>
@@ -270,41 +270,38 @@
     </section>
   </section>
 </section>
-<section class="row">
+<section class="row contact" id="contact">
   <section class="container">
     <h2 class="center-align">Contact</h2>
     <p class="center-align">Lets get in touch. Send us a Message.</p>
-    <section class="col s6">
+    <section class="col m6 s12">
       <p><i class="fa fa-map"></i> Chicago, US</p>
       <p><i class="fa fa-phone"></i> Phone 3242342</p>
       <p><i class="far fa-envelope"></i> Email: mail@sada.com</p>
       <form>
         <div class="input-field col s12">
-          <input id="name" type="name" class="validate">
-          <label for="name">Name</label>
+          <input id="name" type="name" class="validate" placeholder="Name">
         </div>
          <div class="input-field col s12">
-          <input id="name" type="name" class="validate">
-          <label for="name">Email</label>
+          <input id="name" type="name" class="validate" placeholder="Name">
         </div>
          <div class="input-field col s12">
-          <input id="name" type="name" class="validate">
-          <label for="name">Subject</label>
+          <input id="name" type="name" class="validate" placeholder="Name">
+         
         </div>
          <div class="input-field col s12">
-          <input id="name" type="name" class="validate">
-          <label for="name">Message</label>
+          <input id="name" type="name" class="validate" placeholder="Name">
         </div>
-        <a class="waves-effect waves-light btn"><i class="fa fa-send left"></i>Send Message</a>
+        <a class="waves-effect waves-light btn btnblack"><i class="fa fa-send left"></i>Send Message</a>
       </form>
     </section>
-    <section class="col s6">
+    <section class="col m6 s12">
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15050.319272913475!2d-99.2009789!3d19.4305526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd413d10d4fe6015!2sThe+Pool!5e0!3m2!1ses-419!2smx!4v1528566094310" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
   </section>
 </section>
 <footer id="footer" class="row center-align footer">
-  <a class="waves-effect waves-light btn"><i class="fa fa-chevron-up left"></i>To the top</a>
+  <a class="btn white" href="#init"><i class="fa fa-chevron-up left"></i>To the top</a>
 </footer>
 
 <!-- Compiled and minified JavaScript -->
